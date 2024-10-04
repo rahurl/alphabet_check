@@ -1,0 +1,9 @@
+Install latest Python3
+Install flask using pip3 install flask
+Run python3 main.py file
+And execute curl -X POST http://127.0.0.1:5000/check_alphabet -H "Content-Type: application/json" -d '{"input_string": "The quick brown fox jumps over a lazy dog."}'
+in another bash terminal
+or use postman post api request with url http://127.0.0.1:5000/check_alphabet
+with input body as json like {"input_string": "The quick brown fox jumps over a lazy dog."}
+
+It will give output as either True or False, whether the string as atleast all alphabets or not.
